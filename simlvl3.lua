@@ -68,7 +68,7 @@ end
 
 function mainMenu()
   
-  m1 = gg.choice({"⭐┃Premium", "⌛┃Set 0 All Production and Nano timers", "💵┃48k simcash", "💰┃20m simoleon", "❌┃Exit", "⚙┃Expand search bar"},nil,"[BETA] Your date is: "..os.date("%d/%m/%Y"))
+  m1 = gg.choice({"⭐┃Premium", "⌛┃Set 0 All Production and Nano timers", "💵┃48k simcash", "💰┃40m simoleon", "❌┃Exit", "⚙┃Expand search bar"},nil,"[BETA] Your date is: "..os.date("%d/%m/%Y"))
   
   if m1 == 1 then
     gg.toast("\nAlready you're using Premium script")
